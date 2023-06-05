@@ -1,8 +1,8 @@
-/*------------------------
-|  COOKING BOOK PROJECT
-|    By : Danaé A.M.
-|  Made with : turnjs4
-------------------------*/
+/***********************
+| COOKING BOOK PROJECT
+|	By : Danaé A.M.
+|- Made with turnjs4 -
+***********************/
 
 body{
 	overflow:hidden;
@@ -58,7 +58,7 @@ body{
 }
 
 .flipbook-viewport .shadow{
-	transition: -webkit-box-shadow 0.5s;
+	-webkit-transition: -webkit-box-shadow 0.5s;
 	-moz-transition: -moz-box-shadow 0.5s;
 	-o-transition: -webkit-box-shadow 0.5s;
 	-ms-transition: -ms-box-shadow 0.5s;

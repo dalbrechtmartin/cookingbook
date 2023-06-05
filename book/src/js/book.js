@@ -1,8 +1,8 @@
-/*------------------------
-|  COOKING BOOK PROJECT
-|    By : Danaé A.M.
-|  Made with : turnjs4
-------------------------*/
+/***********************
+| COOKING BOOK PROJECT
+|	By : Danaé A.M.
+|- Made with turnjs4 -
+***********************/
 
 function addPage(page, book) {
 
