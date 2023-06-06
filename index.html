@@ -8,17 +8,18 @@
 
 <head>
 <meta name="viewport" content="width = 1050, user-scalable = no" />
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="src/js/book.js"></script>
 </head>
 <body>
 
 <div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
-			<div style="background-image:url(pages/1.jpg)"></div>
-			<div style="background-image:url(pages/2.jpg)"></div>
-			<div style="background-image:url(pages/3.jpg)"></div>
+			<div style="background-image:url(src/pages/1.jpg)"></div>
+			<div style="background-image:url(src/pages/2.jpg)"></div>
+			<div style="background-image:url(src/pages/3.jpg)"></div>
 		</div>
 	</div>
 </div>
@@ -58,9 +59,9 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.js'],
-	nope: ['../../lib/turn.html4.min.js'],
-	both: ['css/book.css'],
+	yep: ['lib/turn.js'],
+	nope: ['lib/turn.html4.min.js'],
+	both: ['src/css/book.css'],
 	complete: loadApp
 });
 

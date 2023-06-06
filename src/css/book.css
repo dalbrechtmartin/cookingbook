@@ -58,7 +58,7 @@ body{
 }
 
 .flipbook-viewport .shadow{
-	-webkit-transition: -webkit-box-shadow 0.5s;
+	transition: -webkit-box-shadow 0.5s;
 	-moz-transition: -moz-box-shadow 0.5s;
 	-o-transition: -webkit-box-shadow 0.5s;
 	-ms-transition: -ms-box-shadow 0.5s;
